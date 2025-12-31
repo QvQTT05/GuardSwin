@@ -55,12 +55,14 @@ We provide pre-trained models. You can download them from **Baidu Cloud**.
    ## causal_conv1d-1.5.2+cu12torch2.8cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
 ### Data Preparation
 Download the datasets and structure them as follows:
+```
 data/
 ├── datasets/
 │   ├── train/
 │   ├── val/
 │   └── test/
 └── ...
+```
 ```
   cd data
   python create_Medmnist.py
