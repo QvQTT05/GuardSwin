@@ -1,4 +1,4 @@
-# GuardSwin: Calibrated Learning with Dual Prototypes for Safe Medical Image Classification
+# GuardSwin
 <!-- 封面/Logo预留位 -->
 <div align="center">
   <img src="./fig/Graphical_abstract_01.png"/>
@@ -8,7 +8,7 @@
 ## News
 - **[2025-12-31]** Initial release of the code and paper submission. (Note: The core model source code file will be released shortly after the paper is accepted.)
 ## Introduction
-**GuardSwin: Calibrated Learning with Dual Prototypes for Safe Medical Image Classification**   
+**GuardSwin**   
 <!-- 架构图预留位 -->
 <div align="center">
   <img src="./fig/Figure_2_01.png" width="800"/>
@@ -21,7 +21,7 @@ We provide pre-trained models. You can download them from **Baidu Cloud**.
 | Model | Dataset | Params (M) | GFLOPs | Acc / FPR@95TPR | Download |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | GuardSwin-T | NCT-CRC-HE (OSR) | 27.56 | 4.39 | 0.9808 (FPR@95TPR) | [Baidu Cloud](https://pan.baidu.com/s/1uAH4n8nvI5lOPDSRGdN5Bg?pwd=idae)/ [log](./fig/Osr_Swin_STDP_AFD.txt)|
-| GuardSwin-T | TissueMNIST | 27.56 | 4.39 | 0.0748% (Acc) | [Baidu Cloud](https://pan.baidu.com/s/1IpuAMg51CT37_XSer45TCQ?pwd=7dgz)/ [log](./fig/Swin_TissueMNIST_STDP_AFD.txt)|
+| GuardSwin-T | TissueMNIST | 27.56 | 4.39 | 70.08% (Acc) | [Baidu Cloud](https://pan.baidu.com/s/1IpuAMg51CT37_XSer45TCQ?pwd=7dgz)/ [log](./fig/Swin_TissueMNIST_STDP_AFD.txt)|
 | GuardSwin-T | BloodMNIST | 27.56 | 4.39 | 97.37% (Acc) | [Baidu Cloud](https://pan.baidu.com/s/1FhiEIUujxnk0T5TZkilGwg?pwd=f2a9)/ [log](./fig/Swin_BloodMNIST_STDP_AFD.txt)|
 | GuardSwin-T | OCTMNIST | 27.56 | 4.39 | 82.00% (Acc) | [Baidu Cloud](https://pan.baidu.com/s/18Ha1Iu-x5BDL2ve41i7Y-Q?pwd=n5pu)/ [log](./fig/Swin_OCTMNIST_STDP_AFD.txt)|
 
